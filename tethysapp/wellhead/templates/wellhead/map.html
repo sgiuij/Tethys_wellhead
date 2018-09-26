@@ -12,8 +12,6 @@
     <button id="modelSave" class="btn btn-primary" type="button" onclick="save_model();">Save</button>
   </div>
 
-  <p><br /></p>
-
   <b>Table of Contents</b>
   <div id="toc-layers">
     <ul id="toc-layers-list" class="ui-sortable"></ul>
@@ -28,7 +26,7 @@
 
 {% endblock %}
 
-{% block app_content %}
+{% block after_app_content %}
 
   {{ block.super }}
 
